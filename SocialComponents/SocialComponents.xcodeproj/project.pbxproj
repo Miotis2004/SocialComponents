@@ -15,6 +15,7 @@
 		FD902A1425951A7100077874 /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD902A1325951A7100077874 /* DynamicListView.swift */; };
 		FD902A1725951F0600077874 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD902A1625951F0600077874 /* UserModel.swift */; };
 		FDF0133E25995249003384A6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF0133D25995249003384A6 /* LoginView.swift */; };
+		FDF0134225996195003384A6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF0134125996195003384A6 /* RegisterView.swift */; };
 		FDF10B5E25994BB400FBA011 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDF10B5D25994BB400FBA011 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		FD902A1325951A7100077874 /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 		FD902A1625951F0600077874 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FDF0133D25995249003384A6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FDF0134125996195003384A6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		FDF10B5D25994BB400FBA011 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF0133D25995249003384A6 /* LoginView.swift */,
+				FDF0134125996195003384A6 /* RegisterView.swift */,
 			);
 			path = "Reg-Login";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				FD902A002595181800077874 /* ContentView.swift in Sources */,
 				FD9029FE2595181800077874 /* SocialComponentsApp.swift in Sources */,
 				FD902A1725951F0600077874 /* UserModel.swift in Sources */,
+				FDF0134225996195003384A6 /* RegisterView.swift in Sources */,
 				FDF0133E25995249003384A6 /* LoginView.swift in Sources */,
 				FD902A1425951A7100077874 /* DynamicListView.swift in Sources */,
 			);
