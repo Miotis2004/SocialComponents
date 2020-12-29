@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46F261040A8536C59E7C359C /* Pods_SocialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C131DD12B9AC888CDEB2E7 /* Pods_SocialComponents.framework */; };
+		FD0DF107259BB1D300583970 /* HelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0DF106259BB1D300583970 /* HelperFile.swift */; };
 		FD9029FE2595181800077874 /* SocialComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9029FD2595181800077874 /* SocialComponentsApp.swift */; };
 		FD902A002595181800077874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9029FF2595181800077874 /* ContentView.swift */; };
 		FD902A022595181800077874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD902A012595181800077874 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		26C131DD12B9AC888CDEB2E7 /* Pods_SocialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7E46384B3953831959184F /* Pods-SocialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialComponents.release.xcconfig"; path = "Target Support Files/Pods-SocialComponents/Pods-SocialComponents.release.xcconfig"; sourceTree = "<group>"; };
 		41FC14FCCD53F7FAA9B8E09F /* Pods-SocialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialComponents.debug.xcconfig"; path = "Target Support Files/Pods-SocialComponents/Pods-SocialComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0DF106259BB1D300583970 /* HelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFile.swift; sourceTree = "<group>"; };
 		FD9029FA2595181800077874 /* SocialComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9029FD2595181800077874 /* SocialComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialComponentsApp.swift; sourceTree = "<group>"; };
 		FD9029FF2595181800077874 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FD0DF105259BB1BE00583970 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FD0DF106259BB1D300583970 /* HelperFile.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FD9029F12595181800077874 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		FD9029FC2595181800077874 /* SocialComponents */ = {
 			isa = PBXGroup;
 			children = (
+				FD0DF105259BB1BE00583970 /* Helpers */,
 				FDF10B5D25994BB400FBA011 /* GoogleService-Info.plist */,
 				FD902A112595184900077874 /* Utilities */,
 				FD902A102595183E00077874 /* ViewModels */,
@@ -272,6 +283,7 @@
 			files = (
 				FD902A002595181800077874 /* ContentView.swift in Sources */,
 				FD9029FE2595181800077874 /* SocialComponentsApp.swift in Sources */,
+				FD0DF107259BB1D300583970 /* HelperFile.swift in Sources */,
 				FD902A1725951F0600077874 /* UserModel.swift in Sources */,
 				FDF0134225996195003384A6 /* RegisterView.swift in Sources */,
 				FDF0133E25995249003384A6 /* LoginView.swift in Sources */,

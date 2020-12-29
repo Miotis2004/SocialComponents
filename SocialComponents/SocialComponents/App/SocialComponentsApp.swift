@@ -12,6 +12,7 @@ import Firebase
 struct SocialComponentsApp: App {
     
     @State var isLoggedIn: Bool = false
+    @State var isRegistered: Bool = true
     
     init() {
         FirebaseApp.configure()
@@ -20,7 +21,13 @@ struct SocialComponentsApp: App {
     var body: some Scene {
         WindowGroup {
             if !isLoggedIn {
-                LoginView(isLoggedIn: $isLoggedIn)
+                VStack {
+                    if isRegistered {
+                        LoginView(isLoggedIn: $isLoggedIn, isRegistered: $isRegistered)
+                    } else {
+                        RegisterView(isLoggedIn: $isLoggedIn, isRegistered: $isRegistered)
+                    }
+                }
             } else {
                 ContentView()
             }

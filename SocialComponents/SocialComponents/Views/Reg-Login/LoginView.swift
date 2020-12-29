@@ -15,6 +15,7 @@ struct LoginView: View {
     @State private var showAlert: Bool = false
     
     @Binding var isLoggedIn: Bool
+    @Binding var isRegistered: Bool
     
     var body: some View {
         ZStack {
@@ -59,7 +60,7 @@ struct LoginView: View {
                     Alert(title: Text("Login Error"), message: Text("Something went wrong, try again"), dismissButton: .default(Text("OK")))
                 })
                 Button (action: {
-                    RegisterView()
+                    isRegistered = false
                 }, label: {
                     Text("Register new account")
                         .foregroundColor(Color.black)
@@ -74,4 +75,9 @@ struct LoginView: View {
     }
 }
 
+struct LoginView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView(isLoggedIn: .constant(false), isRegistered: .constant(false))
+    }
+}
 
